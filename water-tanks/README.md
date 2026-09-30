@@ -6,7 +6,7 @@ receive N extra liters") whose effect depends on that day's weather — many of 
 flags that never fire, so the model must track the weather per day as well as the volumes.
 
 Usage:
-Pick a folder like 16k, grab the water_tank_log.txt and questions.txt and feed them into the LLM tool of choice.
+Pick a folder like 16k, grab the water_tank_log.txt and question.txt and feed them into the LLM tool of choice.
 For example by using guide.txt as a template. The aim is to see if the llm can actually follow a thought and details far enough.
 
 Once the LLM generates the answer, compare it to the answer_key.txt
