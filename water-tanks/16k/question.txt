@@ -1,0 +1,4 @@
+Read the audit log above carefully. Answer the following:
+1. At the close of the audit (end of the Thursday shift), how many liters of water were in Tank Gamma?
+2. Which of the six tanks held the greatest volume at that moment, and exactly how many liters did it hold?
+Answer both parts precisely.

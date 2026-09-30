@@ -1,0 +1,41 @@
+PERPLEXITY STRESS TEST — ANSWER KEY (seed 45)
+
+FINAL ANSWERS
+  Q1: Tank Gamma held 768 liters at the close of the audit.
+  Q2: Tank Epsilon held the greatest volume: 978 liters.
+
+FULL LEDGER  (A=Alpha B=Beta G=Gamma D=Delta E=Epsilon Z=Zeta, liters)
+Initial: Alpha=428 Beta=577 Gamma=649 Delta=413 Epsilon=233 Zeta=460
+D1 06:42  wx-instr +39 L into Zeta (if sun) FIRED    [A=428 B=577 G=649 D=413 E=233 Z=499]
+D1 07:52  waste -49 L from Alpha                     [A=379 B=577 G=649 D=413 E=233 Z=499]
+D1 08:43  transfer 69 L Zeta -> Alpha                [A=448 B=577 G=649 D=413 E=233 Z=430]
+D1 09:10  transfer 32 L Gamma -> Zeta                [A=448 B=577 G=617 D=413 E=233 Z=462]
+D1 09:55  transfer 11 L Delta -> Alpha               [A=459 B=577 G=617 D=402 E=233 Z=462]
+D1 10:41  waste -54 L from Delta                     [A=459 B=577 G=617 D=348 E=233 Z=462]
+D1 11:39  Epsilon doubled (took its own volume, 233 L, from Zeta) [A=459 B=577 G=617 D=348 E=466 Z=229]
+D1 12:48  phone-intake net +91 L into Gamma (meant 78, x2, drained 65) [A=459 B=577 G=708 D=348 E=466 Z=229]
+D2 06:34  Alpha doubled (took its own volume, 459 L, from Beta) [A=918 B=118 G=708 D=348 E=466 Z=229]
+D2 07:30  Epsilon doubled to 932 L (intake)          [A=918 B=118 G=708 D=348 E=932 Z=229]
+D2 08:22  intake +68 L into Beta                     [A=918 B=186 G=708 D=348 E=932 Z=229]
+D2 09:11  wx-instr +38 L into Delta (if windy) FIRED [A=918 B=186 G=708 D=386 E=932 Z=229]
+D2 10:05  Alpha bled down to 115 L                   [A=115 B=186 G=708 D=386 E=932 Z=229]
+D2 10:54  transfer 67 L Epsilon -> Zeta              [A=115 B=186 G=708 D=386 E=865 Z=296]
+D2 11:20  wx-instr +60 L into Gamma (if no rain) FIRED [A=115 B=186 G=768 D=386 E=865 Z=296]
+D2 11:55  transfer 27 L Alpha -> Epsilon             [A=88 B=186 G=768 D=386 E=892 Z=296]
+D3 06:28  waste -10 L from Alpha                     [A=78 B=186 G=768 D=386 E=892 Z=296]
+D3 07:32  phone-intake net +86 L into Epsilon (meant 65, x3, drained 109) [A=78 B=186 G=768 D=386 E=978 Z=296]
+D3 08:14  leak -6 L from Delta                       [A=78 B=186 G=768 D=380 E=978 Z=296]
+D3 09:00  intake +43 L into Beta                     [A=78 B=229 G=768 D=380 E=978 Z=296]
+D3 09:56  transfer 48 L Beta -> Alpha                [A=126 B=181 G=768 D=380 E=978 Z=296]
+D3 10:37  wx-instr +32 L into Delta (if sun) not fired [A=126 B=181 G=768 D=380 E=978 Z=296]
+D3 11:41  intake +26 L into Alpha                    [A=152 B=181 G=768 D=380 E=978 Z=296]
+D3 12:10  Beta doubled to 362 L (intake)             [A=152 B=362 G=768 D=380 E=978 Z=296]
+D4 06:50  wx-instr +40 L into Epsilon (if sun) not fired [A=152 B=362 G=768 D=380 E=978 Z=296]
+D4 07:57  Zeta doubled to 592 L (intake)             [A=152 B=362 G=768 D=380 E=978 Z=592]
+D4 09:07  leak -13 L from Delta                      [A=152 B=362 G=768 D=367 E=978 Z=592]
+D4 09:49  waste -34 L from Delta                     [A=152 B=362 G=768 D=333 E=978 Z=592]
+D4 10:24  phone-intake net +30 L into Alpha (meant 24, x3, drained 42) [A=182 B=362 G=768 D=333 E=978 Z=592]
+D4 11:30  wx-instr +73 L into Zeta (if sun) not fired [A=182 B=362 G=768 D=333 E=978 Z=592]
+D4 12:15  waste -46 L from Delta                     [A=182 B=362 G=768 D=287 E=978 Z=592]
+D4 12:53  wx-instr +86 L into Delta (if windy) FIRED [A=182 B=362 G=768 D=373 E=978 Z=592]
+Final:   Alpha=182 Beta=362 Gamma=768 Delta=373 Epsilon=978 Zeta=592

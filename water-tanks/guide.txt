@@ -1,0 +1,8 @@
+Help me to to evaluate water tank levels.
+
+Read all the contents of water_tank_log.txt
+Then answer the question on question.txt
+
+You can not read any other files.
+You can not execute any python/nodejs or any other programming code.
+You are not allowed to write any code to ease the task. You can only read and reason.
