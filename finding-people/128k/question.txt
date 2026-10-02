@@ -1,0 +1,4 @@
+Read the festival log above carefully, then answer both questions.
+1. Which people are standing within the square whose sides run east–west and north–south, with Felicia's final position at its north-west corner and Erin's final position at its south-east corner? List every person strictly inside that square (nobody on the boundary counts), no more, no less.
+2. At the close of the festival, where was Bob standing relative to the fountain, and where were they relative to Helen? Use the eight directions of the log: north, south, east, west, northeast, northwest, southeast, southwest.
+Keep in mind: walking east or west never makes a person further north or further south, walking north or south never makes them further east or further west, and a person who stands north-east of one person and south-west of another stands between the two.
